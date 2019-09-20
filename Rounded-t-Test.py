@@ -10,9 +10,9 @@ import matplotlib.pyplot as plt
 
 nx = 1000
 ny = 1000
-muxall = list(np.arange(2.0,3.0,0.1))
+muxall = list(np.arange(3.0,4.0,0.1))
 
-sigmaall = [0.1,0.15,0.2]
+sigmaall = [0.1,0.15,0.2,0.5]
 deltaall = [0.1,0.2,0.3,0.5]
 
 fig, ax = plt.subplots(len(sigmaall), len(deltaall), sharex='col', sharey='row')
